@@ -42,16 +42,13 @@
       <HintPath>..\packages\Microsoft.Win32.Registry.4.5.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
     </Reference>
     <Reference Include="NationalInstruments.SystemLink.Clients.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
-      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.Core.1.1.0-CI-20190330-222812\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.Core.dll</HintPath>
+      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.Core.1.0.1\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.Core.dll</HintPath>
     </Reference>
     <Reference Include="NationalInstruments.SystemLink.Clients.File, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
-      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.File.1.0.0-CI-20190330-222812\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.File.dll</HintPath>
+      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.File.1.0.1\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.File.dll</HintPath>
     </Reference>
     <Reference Include="NationalInstruments.SystemLink.Clients.TestMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
-      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.TestMonitor.1.0.0-CI-20190330-222812\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.TestMonitor.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.SystemLink.Clients.TestMonitor.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
-      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.TestMonitor.Http.1.0.0-CI-20190325-175636\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.TestMonitor.Http.dll</HintPath>
+      <HintPath>..\packages\NationalInstruments.SystemLink.Clients.TestMonitor.1.0.2\lib\netstandard2.0\NationalInstruments.SystemLink.Clients.TestMonitor.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
