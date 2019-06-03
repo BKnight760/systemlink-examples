@@ -75,19 +75,16 @@ namespace TestGenerator
         static void Main(string[] args)
         {
             System.Net.ServicePointManager.ServerCertificateValidationCallback = new System.Net.Security.RemoteCertificateValidationCallback(AcceptAllCertifications);
-            var serverUri = new Uri("https://ip-10-192-40-62.aws.natinst.com");
-            //var username = "my-username";
-            //var password = "my-password";
-            //var httpConfiguration = new HttpConfiguration(serverUri, username, password);
-            var httpTestDataManager = new HttpTestDataManager();
-            var httpFileUploader = new HttpFileUploader();
+            var serverUri = new Uri("https://localhost");
+            var testDataManager = new TestDataManager();
+            var fileUploader = new FileUploader();
 
             var lowLimit = 0;
             var highLimit = 70;
 
             for (var resultIndex = 0; resultIndex < 10; resultIndex++)
             {
-                var fileId = httpFileUploader.UploadFile("C:\\Broadway.tdms");
+                var fileId = fileUploader.UploadFile("C:\\Broadway.tdms");
                 var resultData = new ResultData()
                 {
                     Operator = "mvaterla",
@@ -97,7 +94,7 @@ namespace TestGenerator
                     Product = "Some Software",
                     FileIds = new List<string> { fileId }
                 };
-                var testResult = httpTestDataManager.CreateResult(resultData);
+                var testResult = testDataManager.CreateResult(resultData);
                 testResult.AutoUpdateTotalTime = true;
 
                 Random random = new Random();
